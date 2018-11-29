@@ -16,7 +16,7 @@ docker container prune: remove all stopped containers
 docker image build -t <name> . //create an image even stopped
 docker container rm <container-name> //remove container
 docker container prune: remove all stopped containers
-docker image build -t <name> . //create an image
+docker image build -t <name> . //create an image using dockerfile at current location
 
 Manage images 
  
