@@ -1,4 +1,4 @@
-docker version
+docker version 
 docker images: list all the images
 docker rmi hello-world
 docker run <image-name> : run an image/container
