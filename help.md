@@ -4,7 +4,16 @@ docker rmi hello-world
 docker run <image-name> : run an image/container
 docker rm <container-name>
 docker ps: list all containers which are running
+docker cotainer ls -a : list all the containers,docker version
+docker images: list all the images
+docker rmi hello-world
+docker run <image-name> : run an image/container
+docker rm <container-name>
+docker ps: list all containers which are running
 docker cotainer ls -a : list all the containers, even stopped
+docker container rm <container-name> //remove container
+docker container prune: remove all stopped containers
+docker image build -t <name> . //create an image even stopped
 docker container rm <container-name> //remove container
 docker container prune: remove all stopped containers
 docker image build -t <name> . //create an image
